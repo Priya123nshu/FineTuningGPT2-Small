@@ -8,7 +8,19 @@ The implementation follows [Sebastian Raschka's *Build a Large Language Model (F
 
 > **GPU compute for this project was provided by the Government of India's [AIKosh](https://aikosh.ai/) platform.**
 
-Training was performed on an **NVIDIA A100 GPU** allocated through AIKosh's cloud infrastructure.
+Training was performed on an **NVIDIA A100 GPU (5GB partition)** allocated through AIKosh's cloud infrastructure.
+
+### AIKosh GPU Allocation
+![AIKosh GPU Selection — 5GB NVIDIA A100 partition](screenshots/aikosh_gpu_allocation.png)
+
+### GPU Notebook Session (Airawat)
+![AIKosh Airawat — Jupyter Notebook with GPU support, 1 node, 16 cores, Running](screenshots/aikosh_gpu_session.png)
+
+### Notebook Dashboard
+![AIKosh My Notebook — FineTuninggpt2small, GPU, 4 Hours, 5GB profile, Launched](screenshots/aikosh_notebook_dashboard.png)
+
+### Training Completed Successfully
+![Training output — loss converging, model saved to gpt2-small-alpaca-finetuned.pth in 295.55 seconds](screenshots/training_completed.png)
 
 ## Project Structure
 
