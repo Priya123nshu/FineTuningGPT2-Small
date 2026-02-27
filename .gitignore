@@ -1,0 +1,17 @@
+# Model weights (too large for GitHub)
+*.pth
+
+# Downloaded GPT-2 checkpoints
+gpt2/
+
+# Dataset
+instruction-data.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
